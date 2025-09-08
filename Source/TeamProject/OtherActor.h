@@ -11,5 +11,7 @@ class TEAMPROJECT_API AOtherActor : public AActor
 	
 public:	
 	AOtherActor();
+	
+	virtual void BeginPlay() override;
 
 };
